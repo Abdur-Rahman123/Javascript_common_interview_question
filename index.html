@@ -1,0 +1,9 @@
+<script>
+    
+    const ids=[10,20,30,40,30,30];
+    const unique=ids.filter((value,index,ids)=>
+    {ids.indexOf(value)==index
+        console.log('index of',ids.indexOf(value));
+    });
+    console.log('unique value',unique);
+</script>
